@@ -4,7 +4,10 @@ import { fileURLToPath } from 'url';
 import multer from 'multer';
 import sharp from 'sharp';
 import logger from '../logger.mjs';
+import dotenv from 'dotenv';
+dotenv.config();
 
+const port = process.env.PORT || 3001;
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
