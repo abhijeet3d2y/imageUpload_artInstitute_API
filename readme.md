@@ -15,3 +15,31 @@ Before running the application, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/abhijeet3d2y/imageUpload_artInstitute_API.git
+
+2. Navigate to the project directory 
+    cd imageUpload_artInstitute_API
+
+3. Install dependencies - 
+    npm install
+
+4. Create a .env file in the root of the project and configure your environment variables - 
+    PORT=3000
+
+## To start the application, run:
+
+- npm start
+
+## Endpoints
+
+    Base URL - 
+- http://localhost:3000/
+
+    Image Upload - 
+- POST - /upload
+- Upload an image below 2 MB Size. The server will return URLs for the original and resized 100 * 100 size images.
+
+    Art Institute API Integration - 
+- GET - /art-institute
+- Retrieve artwork information from the Art Institute of Chicago API.
+
+*************************THANK YOU ALL :) !!***********************************
