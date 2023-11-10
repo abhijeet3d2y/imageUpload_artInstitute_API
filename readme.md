@@ -40,6 +40,7 @@ Before running the application, make sure you have the following installed:
 
     Art Institute API Integration - 
 - GET - /art-institute
-- Retrieve artwork information from the Art Institute of Chicago API.
+- Retrieve artwork information from the Art Institute of Chicago API. All the URLs for images is also working. 
+- You can see all images by copy pasting them on chrome or any browser.
 
 ************************* THANK YOU ALL - abhijeet3d2y :) !!***********************************
